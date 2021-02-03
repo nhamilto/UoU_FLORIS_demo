@@ -10,8 +10,6 @@ Project start date: February 3, 2021
 ```
 $ pip install virtualenv
 $ pip install virtualenvwrapper
-
-
 ```
 
 ## Setup Virtual Environment
