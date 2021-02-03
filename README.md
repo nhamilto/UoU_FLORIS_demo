@@ -26,6 +26,9 @@ $ python -m ipykernel install --user --name=<your env name>
 ```
 
 ## Get FLORIS
+
+https://github.com/NREL/floris
+
 ```
 $ cd <code repo dir>
 $ git clone https://github.com/NREL/floris.git
