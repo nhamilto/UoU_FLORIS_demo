@@ -6,14 +6,16 @@ nicholas.hamilton@nrel.gov
 Project start date: February 3, 2021
 
 ## Get Python
-
-```
-$ pip install virtualenv
-$ pip install virtualenvwrapper
-```
+I'd recommend using:
+ - brew (mac, https://docs.python-guide.org/starting/install3/osx/) 
+ - Python direct installation (https://www.python.org/)
+ - Anaconda https://www.anaconda.com/
 
 ## Setup Virtual Environment
 ```
+$ pip install virtualenv
+$ pip install virtualenvwrapper
+
 $ export WORKON_HOME=$HOME/.virtualenvs   # Optional
 $ export PROJECT_HOME=$HOME/projects      # Optional
 $ source /usr/local/bin/virtualenvwrapper.sh
