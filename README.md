@@ -21,7 +21,8 @@ $ export PROJECT_HOME=$HOME/projects      # Optional
 $ source /usr/local/bin/virtualenvwrapper.sh
 
 $ mkvirtualenv wakemod
-$ workon wakemod
+$ workon <your env name>
+$ python -m ipykernel install --user --name=<your env name>
 ```
 
 ## Get FLORIS
@@ -31,10 +32,21 @@ $ git clone https://github.com/NREL/floris.git
 $ pip install –e floris
 ```
 
-## Examples:
+## Setup project directory
 ```
 $ cd <working directory>
-$ git clone 
+$ git clone
+```
+## Examples:
+
+Lots of examples have been developed as part of the FLORIS repository. 
+```
+$ cd <code repo dir>/floris/examples/
+```
+
+There are also some example jupyter notebooks in this repo for you to use and build on for your own work.
+```
+$ cd <working directory>/UoU_FLORIS_demo/notebooks/
 ```
 
 
