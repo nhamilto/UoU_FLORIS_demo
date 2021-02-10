@@ -20,7 +20,7 @@ $ export WORKON_HOME=$HOME/.virtualenvs   # Optional
 $ export PROJECT_HOME=$HOME/projects      # Optional
 $ source /usr/local/bin/virtualenvwrapper.sh
 
-$ mkvirtualenv wakemod
+$ mkvirtualenv <your env name>
 $ workon <your env name>
 $ python -m ipykernel install --user --name=<your env name>
 ```
